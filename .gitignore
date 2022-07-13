@@ -1,6 +1,4 @@
 .DS_Store
-cmd/entity-server/entity-server
-cmd/entity-server/storage/*.db
 .idea
 .vscode
-cmd/entity-server/logs
+logs/

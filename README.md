@@ -64,7 +64,13 @@ go run cmd/entity-server/main.go
 
 ```
 ### Run by docker
-Updating...
+
+From root project run the script:
+```
+
+sh ./scripts/run.dev.sh
+
+```
 
 ## Api Specification
 Please import postman collection file to view the api: [shapeservice.postman_collection](https://github.com/phuongnc/GoGin-RestApi/blob/master/docs/shapeservice.postman_collection.json)
@@ -90,7 +96,7 @@ Feel free to reach out to me if you have any questions or feedback on how my cod
 
 - [x] REST APIs
 
-- [ ] Docker build
+- [x] Docker build
 
 - [ ] Unit test
 
