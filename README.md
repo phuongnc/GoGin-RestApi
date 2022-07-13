@@ -59,25 +59,29 @@ This repository was developed with the system versions below:
 
 Clone this repository to your local machine. Ensure that you have Go environment. Go to root project and run:
 ```
-
 go run cmd/entity-server/main.go
-
 ```
 ### Run by docker
 
 From root project run the script:
 ```
-
 sh ./scripts/run.dev.sh
-
 ```
 
 ## Api Specification
 Please import postman collection file to view the api: [shapeservice.postman_collection](https://github.com/phuongnc/GoGin-RestApi/blob/master/docs/shapeservice.postman_collection.json)
 
-
-  
-
+Sample request:
+```
+curl --location --request POST 'localhost:7171/api/auth/register' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+	"email": "nguyencongphuong@gmail.com",
+    "password": "Password@123",
+    "first_name": "Nguyen",
+    "last_name": "Phuong"
+}'
+```
 ## Questions / Feedbacks / Bugs
 
   
