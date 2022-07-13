@@ -1,0 +1,12 @@
+env_prefix=""
+server_port=7171
+db_connection = "storage/shapeservice.db"
+token_secret="Shapeservice-JWT-Secret"
+default_page_num = 1
+default_page_limit = 10
+
+[LogConfig]
+format = "json"
+output = "file"
+path = "logs"
+expired = 3
