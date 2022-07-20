@@ -92,6 +92,9 @@ curl --location --request POST 'localhost:7171/api/auth/register' \
 
 Feel free to reach out to me if you have any questions or feedback on how my code can be improved.
 
+My email:  nguyencongphuong@gmail.com
+
+
   
 
 ### TODO
